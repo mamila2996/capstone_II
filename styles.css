@@ -1,0 +1,209 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.left{
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.l1{
+    background: url(./images/desktop/image-header.jpg) no-repeat center / cover;
+    height: 350px;
+}
+.links a{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+margin-left: 10px;
+text-decoration: none;
+color: hsl(0, 0%, 100%);
+font-size: 12px;
+}
+.links a:hover{
+    color: black;
+    border-radius: 16px;
+    background-color: white;
+    padding: 5px 8px;
+}
+.l1 h2{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+}
+.l2{
+    height: 350px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.l2 a{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: hsl(51, 100%, 49%);
+    background-attachment: fixed;
+}
+.l2 h3{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+}
+.l2 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10.5px;
+    color: hsl(232, 10%, 55%);
+}
+.l3{
+    background: url(./images/desktop/image-transform.jpg) no-repeat center / cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.l4{
+    background: url(./images/desktop/image-stand-out.jpg) no-repeat center / cover;
+    height: 350px;
+}
+.l5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 350px;
+}
+.l5 h3{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+}
+.l5 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10.5px;
+    color: hsl(210, 4%, 67%);
+
+}
+.l5 a{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: hsl(7, 99%, 70%);
+    background-attachment: fixed;
+}
+.right{
+    margin-top: -50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.r1{
+    background: url(./images/desktop/image-graphic-design.jpg) no-repeat center / cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(167, 40%, 24%);
+}
+.r1 h4{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+    margin-top: 200px;
+}
+.r1 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+}
+
+.r2{
+    background: url(./images/desktop/image-photography.jpg) no-repeat center / cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(198, 62%, 26%);
+}
+.r2 h4{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+    margin-top: 200px;
+}
+.r2 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+}
+
+.r3{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.r3 img{
+    border-radius: 50%;
+    width: 50px;
+}
+.r3 h6{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+}
+.r3 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 9.5px;
+    color: hsl(213, 9%, 39%);
+}
+.r4{
+    background: url(./images/desktop/image-gallery-milkbottles.jpg) no-repeat center / cover;
+    height: 250px;
+}
+.r5{
+    background: url(./images/desktop/image-gallery-orange.jpg) no-repeat center / cover;
+    height: 250px;
+}
+.r6{
+    background: url(./images/desktop/image-gallery-cone.jpg) no-repeat center / cover;
+    height: 250px;
+}
+.r7{
+    background: url(./images/desktop/image-gallery-sugarcubes.jpg) no-repeat center / cover;
+    height: 250px;
+}
+.r8{
+height: 200px;
+/* background: url(./images/desktop/image-graphic-design.jpg) no-repeat center / cover; */
+background-color: rgb(165, 216, 165);
+}
+.r8 h2{
+    margin-top: 10px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(212, 27%, 19%);
+}
+.r8 a{
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+    padding: 10px;
+    margin-top: 25px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+.r8 a:hover {
+    color: hsl(0, 0%, 100%);
+}
+a.imglink:hover img{
+    background-color: hsl(0, 0%, 100%);
+}
+.r8 img{
+    padding: 5px;
+    margin-top: 25px;
+}
